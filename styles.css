@@ -1,0 +1,132 @@
+.offer{
+    border: 1px solid white;
+    background-image: linear-gradient(to right,red,green,yellow);
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+
+}
+.list1{
+    border: 3px solid red;
+    border-radius: 7px;
+    width: 65%;
+    margin:10px 30px 0px 200px;
+    text-align: center;
+    background-color: rgb(139, 199, 201);
+}
+ul{
+    margin: 0px; 
+}
+
+.container1{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(8, 184, 102);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    grid-column-gap: 10px;
+    
+}
+
+.cont{
+    border: 2px solid green;
+    border-radius:7px ;
+    width: 350px;
+    height: 55px;
+    padding-left: 10px;
+    background-color: lightskyblue;
+    margin-left: 50px;
+    
+    
+
+}
+.four{
+    margin-left:475px ;
+}
+
+.heading{
+    border: 2px solid white;
+    margin-top: 10px;
+    height: 40px;
+    background-image: linear-gradient(  to right, red,yellow,red);
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.container2{
+    border: 2px solid rgb(17, 53, 17);
+    height: 200px;
+    display: flex;
+    /* grid-template-columns: 400px 400px; */
+    background-image: radial-gradient( ellipse,blue,rgb(32, 156, 32));
+}
+
+.box{
+    border: 2px solid  red;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 7px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-align: center;
+    line-height: 30px;
+    margin: 50px;
+}
+.container3{
+    border: 2px solid black;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    display: grid;
+    grid-gap: 10px;
+
+}
+
+.carrer{
+    background-color: red;
+    grid-column: 1/5;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.doubt{
+    background-color: rgb(8, 228, 8);
+    text-align: center;
+    
+}
+
+.apply{
+    background-color: royalblue;
+    font-size: 30px;
+}
+.assure{
+    background-color:rgb(47, 4, 87);
+}
+.list2{
+    background-color: black;
+    grid-column:4/5 ;
+    grid-row: 2/4;
+}
+.lorem{
+    background-color: orangered;
+    grid-column: 1/4;
+    grid-row: 3/4; 
+}
+
+.atb{
+    background-color: cyan;
+    grid-column: 1/5;
+    text-transform: uppercase;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+     
+}
